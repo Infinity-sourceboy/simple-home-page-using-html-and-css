@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100%;
+            width: 100%;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .main {
+            height: 100%;
+            width: 100%;
+        }
+        
+        .navbar {
+            height: 100px;
+            width: 100%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 10vw 0 10vw;
+        }
+        
+        .logo {
+            display: flex;
+        }
+        
+        .logo img {
+            height: 60px;
+            width: 60px;
+            border-radius: 40px;
+            margin: 10px;
+        }
+        
+        .bar {
+            display: flex;
+            gap: 4vw;
+            align-items: center;
+        }
+        
+        .bar a {
+            text-decoration: none;
+            color: #000;
+            font-size: large;
+            font-weight: bold;
+        }
+        
+        .bar a:hover {
+            text-decoration: underline;
+        }
+        
+        .bar button {
+            height: 2vw;
+            width: 7vw;
+            border-radius: 15px;
+            font-size: large;
+            font-weight: bold;
+            background-color: #F19120;
+            border: none;
+            margin-left: 30px;
+        }
+        
+        .bar button:hover {
+            cursor: pointer;
+            box-shadow: ;
+        }
+        
+        .contain {
+            height: 500px;
+            width: 100%;
+            position: relative;
+            display: flex;
+        }
+        
+        .contain_part1 {
+            width: 50%;
+            height: 100%;
+            padding: 4vw 9vw;
+        }
+        
+        .contain_part1 h1 {
+            font-size: 4vw;
+            margin: 20px 0px;
+        }
+        
+        .contain_part1 img {
+            height: 32px;
+            width: 32px;
+        }
+        
+        .contain_part2 {
+            width: 50%;
+            height: 100%;
+            position: relative;
+        }
+        
+        .contain_part2 img {
+            height: 100%;
+            width: 70%;
+            margin-left: 6vw;
+        }
+        
+        .card {
+            height: 500px;
+            width: 100%;
+            position: relative;
+            padding: 0 10vw 0 10vw;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            gap: 4vw;
+        }
+        
+        .card1 {
+            height: 380px;
+            width: 300px;
+            margin: 10px;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        .card1 img {
+            height: 300px;
+            width: 300px;
+            border-radius: 10px;
+        }
+        
+        .card1 i {
+            height: 100px;
+            width: 100px;
+        }
+        
+        .last {
+            height: 300px;
+            width: 100%;
+            background-color: aqua;
+        }
+        
+        .location {
+            border: none;
+        }
+        
+        .search {
+            display: flex;
+            position: relative;
+            gap: 1vw;
+            padding: 0px 0px;
+            width: 100%;
+            border-radius: 0 10px 10px 0;
+            align-items: center;
+        }
+        
+        .search a {
+            height: 100%;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .search_button {
+            background-color: aqua;
+            padding: 22px 43px;
+            border-radius: 0 10px 10px 0;
+        }
+        
+        .vl {
+            border-left: 1px solid gray;
+            height: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./vecteezy_beach-island-landscape-logo-beach-logo-design-vector_6626965-1.jpg" alt="" srcset="">
+                <h1>Touro</h1>
+            </div>
+            <div class="bar">
+                <a href="http://" target="_blank" rel="noopener noreferrer">Home</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Catagory</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Blog</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">About Us</a>
+                <button type="button">Login</button>
+            </div>
+        </div>
+        <div class="contain">
+            <div class="contain_part1">
+                <h1>Explore Beautiful <img src="./sparkle.png" alt="" srcset="">World!</h1>
+                <div class="search">
+                    <div class="search_part">
+                        <label for="" style="color: aqua;">Located In</label>
+                        <select name="" id="" class="location">
+                        <optgroup>
+                            <option value="">Bangladesh</option>
+                            <option value="">bbsr</option>
+                            <option value="">bbsr</option>
+                        </optgroup>
+                    </select>
+                    </div>
+                    <div class="vl"></div>
+                    <div class="search_part">
+                        <label for="" style="color: aqua;">Date</label>
+                        <select name="" id="" class="location">
+                        <optgroup>
+                            <option value="">wed,7Nov</option>
+                            <option value="">bbsr</option>
+                            <option value="">bbsr</option>
+                        </optgroup>
+                    </select>
+                    </div>
+                    <div class="vl"></div>
+                    <div class="search_part">
+                        <label for="" style="color: aqua;">Price Range</label>
+                        <select name="" id="" class="location">
+                        <optgroup>
+                            <option value="">$400-$700</option>
+                            <option value="">bbsr</option>
+                            <option value="">bbsr</option>
+                        </optgroup>
+                    </select>
+                    </div>
+                    <div class="search_button">
+                        <a href="#">Search</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="contain_part2">
+                <img src="./Travel-PNG-Image-File.webp" alt="" srcset="">
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Popular Places</h1>
+            </div>
+            <div class="bar">
+                <a href="http://" target="_blank" rel="noopener noreferrer" style="font-weight: lighter;">Beach</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer" style="font-weight: lighter;">Mountain</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer" style="font-weight: lighter;">Waterfall</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer" style="font-weight: lighter;">Iceberg</a>
+                <a href="" style="color: #F19120;">view all</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card1">
+                <img src="./card.jpg" alt="" srcset="">
+                <h3>Siasconset Beach</h3>
+                <i class="fa-sharp fa-solid fa-star fa-flip-horizontal fa-2xs" style="color: #FFD43B;"></i>
+            </div>
+            <div class="card1">
+                <img src="./card.jpg" alt="" srcset="">
+                <h3>Siasconset Beach</h3>
+                <i class="fa-sharp fa-solid fa-star fa-flip-horizontal fa-2xs" style="color: #FFD43B;"></i>
+            </div>
+            <div class="card1">
+                <img src="./card.jpg" alt="" srcset="">
+                <h3>Siasconset Beach</h3>
+                <i class="fa-sharp fa-solid fa-star fa-flip-horizontal fa-2xs" style="color: #FFD43B;"></i>
+            </div>
+        </div>
+        <div class="last"></div>
+    </div>
+</body>
+
+</html>
